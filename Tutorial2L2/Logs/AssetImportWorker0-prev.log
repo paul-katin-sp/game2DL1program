@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/1/1/Tutorial2L2
+D:/1/Unity/game2DL1program/Tutorial2L2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61682
-Successfully changed project path to: D:/1/1/Tutorial2L2
-D:/1/1/Tutorial2L2
+50952
+Successfully changed project path to: D:/1/Unity/game2DL1program/Tutorial2L2
+D:/1/Unity/game2DL1program/Tutorial2L2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/1/1/Tutorial2L2/Assets
+[Subsystems] Discovering subsystems at path D:/1/Unity/game2DL1program/Tutorial2L2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009800 seconds.
+Registered in 0.010355 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.529 seconds
+- Completed reload, in  2.175 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1529ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (2175ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (140ms)
+		EndReloadAssembly (742ms)
+			LoadAssemblies (164ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (231ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (266ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004485 seconds.
+Registered in 0.005176 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
+- Completed reload, in  2.090 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1492ms)
-		BeginReloadAssembly (233ms)
+	ReloadAssembly (2091ms)
+		BeginReloadAssembly (360ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1150ms)
-			LoadAssemblies (173ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1594ms)
+			LoadAssemblies (276ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
+			SetupTypeCache (538ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (433ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (571ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (34ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (50ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2094 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 93.2 MB.
+Unloading 2095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.2 MB.
+System memory in use after: 93.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2534.
-Total: 4.599800 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.250300 ms MarkObjects: 3.962000 ms  DeleteObjects: 0.092400 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 3.689200 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.094100 ms MarkObjects: 3.275900 ms  DeleteObjects: 0.088600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,392 +131,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Free 2D Platform Tileset/Sprites
-  artifactKey: Guid(555b316b58f75824ca509dceed216039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites using Guid(555b316b58f75824ca509dceed216039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c912683e360d90e90255ee539ed7a08') in 0.011803 seconds 
-  Import took 0.016061 seconds .
+  path: Assets/Free 2D Platform Tileset/Demo/2dPhysic Material.physicsMaterial2D
+  artifactKey: Guid(ae6d01a11387668498bb8225980d5c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/2dPhysic Material.physicsMaterial2D using Guid(ae6d01a11387668498bb8225980d5c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a28beb7a0fdfbd5bc0a415eff0cff3') in 0.090535 seconds 
+  Import took 0.096195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.897009 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background
-  artifactKey: Guid(c2bcb8d4aad8ba043980b3e3f7b93472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background using Guid(c2bcb8d4aad8ba043980b3e3f7b93472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bd8741c80dc2435d607d9e372bbfb1') in 0.017745 seconds 
-  Import took 0.026863 seconds .
+  Time since last request: 0.000548 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Palettes/Platform.prefab
+  artifactKey: Guid(04ffbabb5010a6e4497a0811b0113209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Palettes/Platform.prefab using Guid(04ffbabb5010a6e4497a0811b0113209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225a0a9347f0a83c33dfd715873bc485') in 0.552396 seconds 
+  Import took 0.564308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.055553 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Background.png
-  artifactKey: Guid(88bb71eb3de7adb42840415bd042020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Background.png using Guid(88bb71eb3de7adb42840415bd042020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d3c9b35e04ce6c91f11589568a94b3') in 0.247963 seconds 
-  Import took 0.252426 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Cloud_02.prefab
+  artifactKey: Guid(46ec8bccb1c65f948b28c0695db8e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Cloud_02.prefab using Guid(46ec8bccb1c65f948b28c0695db8e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8be31d2c3274a26abab683f556ad81') in 0.034927 seconds 
+  Import took 0.041035 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Cloud_02.png
-  artifactKey: Guid(d9921ce71463f7d4c90dae8aea77179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Cloud_02.png using Guid(d9921ce71463f7d4c90dae8aea77179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87a6cf04f5446fbd93894350b66f512') in 0.031707 seconds 
-  Import took 0.036026 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Flower_02.prefab
+  artifactKey: Guid(f6ff73e09b5f67b4daa5f0a74f1a699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Flower_02.prefab using Guid(f6ff73e09b5f67b4daa5f0a74f1a699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c000273d54d5d76daa7198bd10be0e9') in 0.041843 seconds 
+  Import took 0.046098 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Flower_01.png
-  artifactKey: Guid(e4e17f55bc3fb4a43af28b1b985b7e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Flower_01.png using Guid(e4e17f55bc3fb4a43af28b1b985b7e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d332eb4dd65e5d9edf459a1b30adc9') in 0.021585 seconds 
-  Import took 0.025670 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Tree_01.prefab
+  artifactKey: Guid(5d05009bf8f313e41983bb4156df6ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Tree_01.prefab using Guid(5d05009bf8f313e41983bb4156df6ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712abcc7f0ea358fff8e6a555db06f24') in 0.040519 seconds 
+  Import took 0.044711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Tree_03.png
-  artifactKey: Guid(dbe4414b36cdd3b4abc35d27860ee55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Tree_03.png using Guid(dbe4414b36cdd3b4abc35d27860ee55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf144d0fb7ea8dec48ab4d0257197fbf') in 0.020736 seconds 
-  Import took 0.024794 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Cloud_01.prefab
+  artifactKey: Guid(c2399b2214009104094e66c2c04f9fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Cloud_01.prefab using Guid(c2399b2214009104094e66c2c04f9fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc253288a9a11270011ef15dfad8f6e') in 0.032621 seconds 
+  Import took 0.036478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Tree_02.png
-  artifactKey: Guid(54774f22402d1d442bf961cb56aba8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Tree_02.png using Guid(54774f22402d1d442bf961cb56aba8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacdabfdfd0723c60e379c1ffeedb3b2') in 0.020077 seconds 
-  Import took 0.025606 seconds .
+  Time since last request: 0.000388 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Tree_02.prefab
+  artifactKey: Guid(bfc6d6b9a41fdc34db6b7ba5b6e535f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Tree_02.prefab using Guid(bfc6d6b9a41fdc34db6b7ba5b6e535f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3df7956f8e14a770a9561c8b323e1') in 0.033011 seconds 
+  Import took 0.040488 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Flower_02.png
-  artifactKey: Guid(8c74df9f241518141ae98a8035ef6d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Flower_02.png using Guid(8c74df9f241518141ae98a8035ef6d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f907d1842081f70cb3c897fd8fff5a48') in 0.035374 seconds 
-  Import took 0.040311 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Flower_01.prefab
+  artifactKey: Guid(79cc10a41ee23bd4088dda605b6e76c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Flower_01.prefab using Guid(79cc10a41ee23bd4088dda605b6e76c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8162a12ef7685e0cfa3a0ab948aeb5d8') in 0.035707 seconds 
+  Import took 0.041804 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Cloud_01.png
-  artifactKey: Guid(5f635130a35c2624fb83bd58aca274e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Cloud_01.png using Guid(5f635130a35c2624fb83bd58aca274e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a906b09bda107afd316903949a347c85') in 0.022852 seconds 
-  Import took 0.026563 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Tree_03.prefab
+  artifactKey: Guid(880c10d8ce2eff749beb9b8296c8589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Tree_03.prefab using Guid(880c10d8ce2eff749beb9b8296c8589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6902928c4609b5124333a77364671d85') in 0.033725 seconds 
+  Import took 0.038923 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Tree_01.png
-  artifactKey: Guid(379d8cc459ada68469e4be7b098d831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Tree_01.png using Guid(379d8cc459ada68469e4be7b098d831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd638df99d4597af8b5469de384beda') in 0.018225 seconds 
-  Import took 0.022271 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Palettes/Platform Sets.prefab
+  artifactKey: Guid(01c768d32a9459b4cbf71d359b84ee2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Palettes/Platform Sets.prefab using Guid(01c768d32a9459b4cbf71d359b84ee2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f35eeb91ac5db4dd792cc8f1ee38e1') in 0.063494 seconds 
+  Import took 0.068715 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Background/Grass.png
-  artifactKey: Guid(e1d9fc9540809a44f9ca5be6000b479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Background/Grass.png using Guid(e1d9fc9540809a44f9ca5be6000b479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ea87360978825dfca2a17f4499e22b') in 0.020925 seconds 
-  Import took 0.025050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.428328 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Characters/Characterblue.png
-  artifactKey: Guid(d7d6eebd5502e564d943ebda4052d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Characters/Characterblue.png using Guid(d7d6eebd5502e564d943ebda4052d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e686ea190d4bf2bde4328cc79e72be') in 0.016397 seconds 
-  Import took 0.021293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Characters/Characterpink.png
-  artifactKey: Guid(661644ab475dcdd45b7c724ae07d86e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Characters/Characterpink.png using Guid(661644ab475dcdd45b7c724ae07d86e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec005f589d48a055babafe1a128424d') in 0.019392 seconds 
-  Import took 0.023273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.383295 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Others/Flag.png
-  artifactKey: Guid(6a965292ed201a84dba0828895209057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Others/Flag.png using Guid(6a965292ed201a84dba0828895209057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e3fc46b43a7373be0c9d67aff72574') in 0.020436 seconds 
-  Import took 0.025156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Others/Ladder.png
-  artifactKey: Guid(750e935433102d344a11493db30f76a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Others/Ladder.png using Guid(750e935433102d344a11493db30f76a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5846a1c2ebb96243f2f219be20c8f82c') in 0.035058 seconds 
-  Import took 0.039400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.414970 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_01.png
-  artifactKey: Guid(a5e3eab31ccf43444ab168bc12e9bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_01.png using Guid(a5e3eab31ccf43444ab168bc12e9bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388fe19604a83335deb7b25a29264aba') in 0.018079 seconds 
-  Import took 0.022415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_02.png
-  artifactKey: Guid(0f6b508980f202544b215701ae0d8392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_02.png using Guid(0f6b508980f202544b215701ae0d8392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6479ea365b4f31d98a8c15e031ad1b') in 0.020891 seconds 
-  Import took 0.024424 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/Prefabs/Grass.prefab
+  artifactKey: Guid(9d8a3770eac02a144a42bd556d90237c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/Prefabs/Grass.prefab using Guid(9d8a3770eac02a144a42bd556d90237c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fe53072eb2f80c525d04ed4a01956b') in 0.035145 seconds 
+  Import took 0.039383 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000233 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_04.png
-  artifactKey: Guid(2c294de03dc45f24093119cdecc32409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_04.png using Guid(2c294de03dc45f24093119cdecc32409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60938574de8c5d4a1fb6d29d7acb3e4') in 0.019691 seconds 
-  Import took 0.023840 seconds .
+  path: Assets/Free 2D Platform Tileset/Demo/CharacterBlue_Cut.png
+  artifactKey: Guid(420a05488c9e94e4186cd05a114fd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/CharacterBlue_Cut.png using Guid(420a05488c9e94e4186cd05a114fd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a66d48e06a620e2243c4ccc710f34cf') in 0.133464 seconds 
+  Import took 0.138104 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_07.png
-  artifactKey: Guid(46515d219bebbe84d9adee154638fa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_07.png using Guid(46515d219bebbe84d9adee154638fa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ffa556f66573d8364df55fc84025a2') in 0.019122 seconds 
-  Import took 0.022909 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Free 2D Platform Tileset/Demo/CharacterPink_Cut.png
+  artifactKey: Guid(7836809cffc263642b509d04d5392980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Platform Tileset/Demo/CharacterPink_Cut.png using Guid(7836809cffc263642b509d04d5392980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f860da160f4a1f917d79c120cc1e7e4') in 0.060593 seconds 
+  Import took 0.064515 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_03.png
-  artifactKey: Guid(c3f84f9469544ce4e8a944c31fca2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_03.png using Guid(c3f84f9469544ce4e8a944c31fca2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70deb244f6e729c2db0ff18cf9eff0c') in 0.019925 seconds 
-  Import took 0.023913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_03.png
-  artifactKey: Guid(9823ef74ef0788e45b835b9707c36165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_03.png using Guid(9823ef74ef0788e45b835b9707c36165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b0f0aebb5223e82013c6735129c8a4') in 0.019379 seconds 
-  Import took 0.023386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Water_03.png
-  artifactKey: Guid(c8b8bf62d4e507249af41c83435f441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Water_03.png using Guid(c8b8bf62d4e507249af41c83435f441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9bfe289dea8c32de99417ee4f1869a') in 0.020211 seconds 
-  Import took 0.024116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_01.png
-  artifactKey: Guid(4041a84217d56f5489a2da52ef292aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_01.png using Guid(4041a84217d56f5489a2da52ef292aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3336d58e15c3cf625d58eb7958767cea') in 0.017351 seconds 
-  Import took 0.021129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_02.png
-  artifactKey: Guid(e952031c79ffd5c4ebb7bafdf54a02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_02.png using Guid(e952031c79ffd5c4ebb7bafdf54a02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50186fc4b4d4e45b3abd787c4db088ee') in 0.018797 seconds 
-  Import took 0.022821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Water_02.png
-  artifactKey: Guid(f09b94e4e7019244db9b0d9b575e5011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Water_02.png using Guid(f09b94e4e7019244db9b0d9b575e5011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be5c124a59ad3dcc1ee4df386034f86') in 0.018877 seconds 
-  Import took 0.022541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_03.png
-  artifactKey: Guid(5d7f44d17d8a7e74fb955051bbc26fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_03.png using Guid(5d7f44d17d8a7e74fb955051bbc26fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8c5793b0cee60f0f7ffb3b1f066377') in 0.019683 seconds 
-  Import took 0.023565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Water_01.png
-  artifactKey: Guid(4bb97fc35d142544da385b6074902ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Water_01.png using Guid(4bb97fc35d142544da385b6074902ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b4eb80189e981bb87a69d6a350c0d7') in 0.021050 seconds 
-  Import took 0.025307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_03.png
-  artifactKey: Guid(a3a858af802972b48ba2cd1b3a72eb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_03.png using Guid(a3a858af802972b48ba2cd1b3a72eb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b8a2ab2b160c89b096650192b639ed') in 0.020032 seconds 
-  Import took 0.024202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_04.png
-  artifactKey: Guid(e67c175efea629642b5d9b431d1ba544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_04.png using Guid(e67c175efea629642b5d9b431d1ba544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f993c38a4dc6752472fa9954a7bbe8b') in 0.018013 seconds 
-  Import took 0.022596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_01.png
-  artifactKey: Guid(34021bfd357a36445b362a01fd35bee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_01.png using Guid(34021bfd357a36445b362a01fd35bee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b3b87094e5b8bd8697aecaead56fd') in 0.018277 seconds 
-  Import took 0.022697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_02.png
-  artifactKey: Guid(cf8e98413b9e12840b5aef709e7de1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_02.png using Guid(cf8e98413b9e12840b5aef709e7de1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b56a42f414f078607b14dcde484f3d') in 0.015110 seconds 
-  Import took 0.019786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_04.png
-  artifactKey: Guid(0fed8b6d0ebdbd5439f63b5644680673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_04.png using Guid(0fed8b6d0ebdbd5439f63b5644680673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c6d7b6618b67e3be4443de37be4050') in 0.021107 seconds 
-  Import took 0.025676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_06.png
-  artifactKey: Guid(54c192ef9d74f6743bd2bfd281a6420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_06.png using Guid(54c192ef9d74f6743bd2bfd281a6420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9737c3dd2bf58bd03a02e278f6281c') in 0.017825 seconds 
-  Import took 0.022078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_02.png
-  artifactKey: Guid(b750c65c0371fc347a7bdb5fa67dff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_02.png using Guid(b750c65c0371fc347a7bdb5fa67dff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11155b052f3ac4cd33986805c571572f') in 0.018389 seconds 
-  Import took 0.040542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_05.png
-  artifactKey: Guid(37a7a6da37838944f978a69307f273d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_05.png using Guid(37a7a6da37838944f978a69307f273d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe1e47ddef4a102b214cf5ce4b67827') in 0.018637 seconds 
-  Import took 0.022588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_05.png
-  artifactKey: Guid(c1bb30111fd39334dac03efc0772f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_05.png using Guid(c1bb30111fd39334dac03efc0772f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a29d74c3c3e609c828209f9ba346949') in 0.017477 seconds 
-  Import took 0.021542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_10.png
-  artifactKey: Guid(9b39c089e20d4914197ba7397ed92af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_10.png using Guid(9b39c089e20d4914197ba7397ed92af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec5de2ed90764a4025b7b37677d73f7') in 0.019992 seconds 
-  Import took 0.023702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_03.png
-  artifactKey: Guid(3e7f635fadc0f60489d0a21bc0eaf534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_03.png using Guid(3e7f635fadc0f60489d0a21bc0eaf534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb96bab7ee562875ab083d4d6d05ccd') in 0.018052 seconds 
-  Import took 0.021585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_02.png
-  artifactKey: Guid(7f4e076a86380ad408577fec3550b26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_02.png using Guid(7f4e076a86380ad408577fec3550b26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1eb6819e27d79dac67ed5eb54fe19c') in 0.018501 seconds 
-  Import took 0.022012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_04.png
-  artifactKey: Guid(8800bd14dc17d274fbde8db61bd5e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_04.png using Guid(8800bd14dc17d274fbde8db61bd5e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf4588ad6edd63d6385c39354c08f22') in 0.018156 seconds 
-  Import took 0.022621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_03.png
-  artifactKey: Guid(75ea3858de717cd4ba80887e00c46af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_03.png using Guid(75ea3858de717cd4ba80887e00c46af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a027747971b0c58212537024493712c') in 0.017836 seconds 
-  Import took 0.022146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_09.png
-  artifactKey: Guid(09e701fc122ad304489ab3838b0535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_09.png using Guid(09e701fc122ad304489ab3838b0535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bbf764b8df4f9d0a64d09b4cf02264') in 0.018345 seconds 
-  Import took 0.022145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_02.png
-  artifactKey: Guid(261881daaa5022f4484da9e1d5a019b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_02.png using Guid(261881daaa5022f4484da9e1d5a019b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d9e41703f6f6afe497050a429c9d71') in 0.018930 seconds 
-  Import took 0.022715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_01.png
-  artifactKey: Guid(cc89593694cba8e46b46a2899471b911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_01.png using Guid(cc89593694cba8e46b46a2899471b911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5124c899f495bc3a9da97497341ff08b') in 0.018933 seconds 
-  Import took 0.023037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_01.png
-  artifactKey: Guid(a0fab160e224c6d4291d639c8185d0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/House_roof_01.png using Guid(a0fab160e224c6d4291d639c8185d0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8d3c5ed5d9f7c2b95db98766f7e4ba') in 0.021345 seconds 
-  Import took 0.025448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_08.png
-  artifactKey: Guid(b72151e44dd94e646ad5e458d3111ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Ground_08.png using Guid(b72151e44dd94e646ad5e458d3111ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e076b5492120ab41370f02241b47de9') in 0.036684 seconds 
-  Import took 0.045165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_01.png
-  artifactKey: Guid(fcbfdfd9adf064442b5adb9fb3916f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Castle_roof_01.png using Guid(fcbfdfd9adf064442b5adb9fb3916f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790acdcb256f2a8a7662d4a682e7f666') in 0.018805 seconds 
-  Import took 0.023322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_04.png
-  artifactKey: Guid(bcd7940ef8065e04aae3ccffd7c1d2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free 2D Platform Tileset/Sprites/Tileset/Bridge_04.png using Guid(bcd7940ef8065e04aae3ccffd7c1d2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae24ab063c3bfbaaaad49187907bc2f') in 0.018411 seconds 
-  Import took 0.022957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 604.250910 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.015930 seconds 
-  Import took 0.020902 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
